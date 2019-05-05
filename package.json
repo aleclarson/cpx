@@ -1,5 +1,5 @@
 {
-  "name": "cpx",
+  "name": "@alloc/cpx",
   "version": "1.5.0",
   "description": "Copy file globs, watching for changes.",
   "engines": {
