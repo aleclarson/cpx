@@ -66,7 +66,7 @@ else if (args.help) {
     require("./help")()
 } else if (args.version) {
     require("./version")()
-} else if (!sources.length || outDir == null || args._.length > 2) {
+} else if (!sources.length || outDir == null) {
     require("./help")()
     process.exitCode = 1
 } else {
